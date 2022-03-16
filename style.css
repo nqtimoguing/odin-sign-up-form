@@ -1,0 +1,155 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+.parent-container {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  max-width: 90%;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px 2px rgb(179, 2, 155);
+  overflow: hidden;
+}
+
+.image-container {
+  background-image: url(images/images/allec-gomes-Yek0cYh0bnY-unsplash.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100%;
+  width: 35%;
+}
+
+.logo-place {
+  margin-top: 30%;
+  /*background: rgba(105, 103, 103, 0.5);  */
+  height: 150px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(138, 1, 92);
+  background-color: rgba(180, 174, 174, 0.795);
+  font-size: 1.5rem;
+}
+
+.logo-place img {
+  max-height: 100%;
+}
+
+main {
+  height: 100%;
+  max-width: 65%;
+  background-color: #fafafa;
+}
+
+.section-desc {
+  padding: 3rem 2rem;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 33%;
+  justify-content: space-around;
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 90%;
+}
+
+form {
+  height: 77%;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 2rem 2rem;
+  /* box-shadow: 0px 3px 0 -2px rgba(0, 0, 0, 0.5);  */
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.form-area p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  gap: 3rem;
+  margin-left: 50px;
+}
+input.placeholder {
+  font-size: 1.5rem;
+}
+input:focus {
+  outline: none;
+  border: 2px solid red;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  line-height: 20px;
+}
+
+.form-area label {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+form input {
+  border: 1px solid #d6d9dc;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid rgb(138, 1, 92);
+}
+input:focus {
+  color: red;
+}
+
+a:hover {
+  color: white;
+}
+.button-container {
+  padding-left: 1rem;
+  margin-left: 300px;
+}
+
+.button-container a {
+  color: rgb(138, 1, 92);
+  text-decoration: none;
+}
+
+button {
+  background-color: rgb(138, 1, 92);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}

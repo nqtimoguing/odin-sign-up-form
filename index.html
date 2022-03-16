@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="parent-container">
+      <div class="image-container">
+        <div class="logo-place">
+          <img
+            src="/images/1ABEB733-88BC-4B39-B6C7-8D7537758256_4_5005_c.jpeg"
+            alt="The Odin Project logo"
+            srcset=""
+          />
+          <h1>TRIO</h1>
+        </div>
+      </div>
+
+      <main>
+        <section class="section-desc">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. <br />
+            Sign up <em>now</em> to get started.
+          </p>
+          <p>You <em>know</em> you want to.</p>
+        </section>
+
+        <form class="form-area" action="#">
+          <div class="form-container">
+            <p><strong>Let's do this!</strong></p>
+
+            <fieldset>
+              <div class="form-input">
+                <label for="firstname">FIRST NAME</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  placeholder="Jack"
+                  id="firstname"
+                  required
+                />
+              </div>
+              <div class="form-input">
+                <label for="last_name">LAST NAME</label>
+                <input
+                  type="text"
+                  id="last_name"
+                  placeholder="Stone"
+                  name="last_name"
+                  required
+                />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="form-input">
+                <label for="email">EMAIL</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="jackstone@gmail.com"
+                  id="email"
+                  required
+                />
+              </div>
+              <div class="form-input">
+                <label for="phone">PHONE NUMBER</label>
+                <input
+                  type="text"
+                  id="phone"
+                  placeholder="514344"
+                  name="phone"
+                />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="form-input">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="psw" required />
+              </div>
+              <div class="form-input">
+                <label for="psw-confirm">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="psw-confirm"
+                  name="password "
+                  required
+                />
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="button-container">
+            <button type="submit">Create Account</button>
+            <p class="login">Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
